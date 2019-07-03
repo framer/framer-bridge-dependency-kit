@@ -8,10 +8,10 @@
        name: "Build"
        if: branch = master OR branch = /greenkeeper\/.*/
        script: yarn
-       script: npx framer-cli build <your-project-path.framerfx>
+       script: npx framer-cli build 
 
      - stage: publish
        name: "Publish"
        if: branch = master OR branch = /greenkeeper\/.*/
        script: yarn
-       script: npx framer-cli publish <your-project-path.framerfx> --yes
+       script: npx framer-cli publish --yes
