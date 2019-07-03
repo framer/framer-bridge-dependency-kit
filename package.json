@@ -1,0 +1,14 @@
+{
+  "main": "dist/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.8",
+    "framer": "^0.10 || ^1"
+  },
+  "peerDependencies": {
+    "framer": "^0.10 || ^1",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0"
+  },
+  "version": "1.0.0"
+}
