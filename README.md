@@ -5,7 +5,7 @@ Framer Bridge is a suite of tools:
 - That allows you to automatically publish and distribute components to designers with [Framer](https://framer.com) and the [Framer Store](https://store.framer.com).
 - Import in production components built by your engineers. It’s an automatic and continually synced workflow, one that is customizable to your existing development workflow.
 
-This repository links together [folder backed Framer projects](https://framer.gitbook.io/teams/integrations#folder-projects) with the [Framer CLI](https://www.npmjs.com/package/framer-cli) and [GitHub actions](https://github.com/framer/PublishAction)/[CircleCI](https://circleci.com/integrations/github/) for an easy package publication flow.
+This repository links together [folder backed Framer projects](https://www.framer.com/support/using-framer-x/folder-backed-projects/) with the [Framer CLI](https://www.npmjs.com/package/framer-cli) and [GitHub actions](https://github.com/framer/PublishAction)/[CircleCI](https://circleci.com/integrations/github/)/[Travis CI](https://travis-ci.com/) with [Greenkeeper](https://greenkeeper.io/) for an easy package publication flow.
 
 ## 🏁 Getting started
 
