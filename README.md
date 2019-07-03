@@ -61,13 +61,27 @@ In order to keep the Framer X package in the Store up to date with the latest ve
 
 There is a small [CircleCI configuration](https://circleci.com/docs/2.0/configuration-reference) included in this repository that publishes the updated package to the [Framer store](https://store.framer.com) every time an update to `my-design-system` is published to NPM. You can change the [config.yml](/.circleci/config.yml) configuration to match a number of different setups, but the one included in this project will update any time the package in npm is updated.
 
+---
+
 **To integrate with CircleCI:**
 
 1. [Connect your repository with CircleCI](https://circleci.com/integrations/github/).
 1. Add the `FRAMER_TOKEN` environment variable in the [CI project settings](https://circleci.com/docs/2.0/env-vars/#setting-an-environment-variable-in-a-project).
 
-You'll also need to hook up your forked Github repository with Greenkeeper, so it can can automatically update your dependencies in `design-system.framerfx`, or make a Pull Request if the version has potential breaking changes. If a Pull Request is submitted by Greenkeeper, you may need to merge the pull request before CircleCI can publish your package to the Framer Team Store.
+---
+
+**To integrate with Travis CI:**
+
+1. [Connect your repository with Travis CI](https://docs.travis-ci.com/user/tutorial/#to-get-started-with-travis-ci).
+1. Add the `FRAMER_TOKEN` environment variable in the [CI project settings](https://docs.travis-ci.com/user/environment-variables).
+
+---
+
+You'll also need to hook up your forked Github repository with a dependency manager tool like Greenkeeper, so it can can automatically update your dependencies in `design-system.framerfx`, or make a Pull Request if the version has potential breaking changes.
+
+If a Pull Request is submitted by Greenkeeper, you may need to merge the pull request before CircleCI can publish your package to the Framer Team Store.
 
 **To integrate with Greenkeeper:**
 
+1. Sign up for a free [Greenkeeper Account](https://greenkeeper.io/)
 1. [Connect your repository with Greenkeeper](https://greenkeeper.io/).
