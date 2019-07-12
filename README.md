@@ -1,4 +1,4 @@
-# Framer Bridge Dependecny Kit
+# Framer Bridge Dependency Kit
 
 Framer Bridge is a suite of tools:
 
