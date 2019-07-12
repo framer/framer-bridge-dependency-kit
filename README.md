@@ -1,4 +1,4 @@
-# Framer Bridge Starter Kit
+# Framer Bridge Dependecny Kit
 
 Framer Bridge is a suite of tools:
 
